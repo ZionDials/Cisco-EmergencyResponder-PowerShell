@@ -7,7 +7,7 @@ This repository contains a collection of PowerShell scripts that can be used to 
 ## Developing
 
 ```powershell
-Import-Module .\sources\Cisco-EmergencyResponder-PowerShell.psd1 -Force
+Import-Module .\sources\Cisco-EmergencyResponder-PowerShell.psm1 -Force
 ```
 
 ## Usage
