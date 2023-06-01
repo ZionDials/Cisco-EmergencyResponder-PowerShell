@@ -7,9 +7,9 @@ This repository contains a collection of PowerShell scripts that can be used to 
 ## Developing
 
 ```powershell
-Import-Module .\sources\Cisco-EmergencyResponder-PowerShell.psm1 -Force
+Import-Module .\sources\Cisco-EmergencyResponder-PowerShell.psd1 -Force
 ```
 
-## Usage
+## Special Thanks
 
-When using the commands that begin with the verb "Get", if you specify the UUID of the request, it will execute the "get" AXL request, instead of the default "list" AXL request.
+[Joss Ryan](https://github.com/jossryan) for her [CUCMPosh](https://github.com/jossryan/CUCMPosh) module, which was used as a reference for this module.
